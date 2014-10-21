@@ -12,6 +12,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self.window setTintColor:[UIColor colorWithRed:247/255.0 green:180/255.0 blue:92/255.0 alpha:1]];
     // Override point for customization after application launch.
     return YES;
 }
