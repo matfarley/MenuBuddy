@@ -34,11 +34,18 @@
 		91851A3419E1177C009C86D5 /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 91851A3019E1177C009C86D5 /* sound.png */; };
 		918E2FB119EA30C7008B7B62 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 918E2FB019EA30C7008B7B62 /* forward.png */; };
 		918E2FB319EA3117008B7B62 /* backward.png in Resources */ = {isa = PBXBuildFile; fileRef = 918E2FB219EA3117008B7B62 /* backward.png */; };
-		918E2FB619EA323E008B7B62 /* MBRecipeInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 918E2FB519EA323E008B7B62 /* MBRecipeInfoViewController.m */; };
+		9191CE5D19F8E86F00F30137 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9191CE5C19F8E86F00F30137 /* icon-60@2x.png */; };
+		9191CE5F19F8E94600F30137 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9191CE5E19F8E94600F30137 /* icon-40@2x.png */; };
+		9191CE6119F8E9AA00F30137 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9191CE6019F8E9AA00F30137 /* Icon-Small@2x.png */; };
+		9191CE6519F8EC5C00F30137 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9191CE6219F8EC5C00F30137 /* Default-568h@2x.png */; };
+		9191CE6619F8EC5C00F30137 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9191CE6319F8EC5C00F30137 /* Default.png */; };
+		9191CE6719F8EC5C00F30137 /* Default@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9191CE6419F8EC5C00F30137 /* Default@x2.png */; };
 		91A60C2C19F1E81A00BAB863 /* MBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A60C2B19F1E81A00BAB863 /* MBWebViewController.m */; };
+		91BB952F19FA29B4001A0F62 /* recipies.json in Resources */ = {isa = PBXBuildFile; fileRef = 91BB952E19FA29B4001A0F62 /* recipies.json */; };
 		91E7123E19DFA26E00EE4E46 /* MBRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E7123D19DFA26E00EE4E46 /* MBRecipe.m */; };
 		91E7124119DFA8D300EE4E46 /* MBCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E7124019DFA8D300EE4E46 /* MBCircleButton.m */; };
 		91E7124319DFCB4F00EE4E46 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E7124219DFCB4F00EE4E46 /* AVFoundation.framework */; };
+		91EED19E19FAF6810016B34A /* machoSweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 91EED19D19FAF6810016B34A /* machoSweet.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,23 +59,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9110043419D16000009541D0 /* MenuBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9110043419D16000009541D0 /* Nacho Man.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nacho Man.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9110043719D16000009541D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9110043919D16000009541D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9110043B19D16000009541D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9110043F19D16000009541D0 /* MenuBuddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MenuBuddy-Info.plist"; sourceTree = "<group>"; };
+		9110043F19D16000009541D0 /* Nacho Man-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nacho Man-Info.plist"; sourceTree = "<group>"; };
 		9110044119D16000009541D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9110044319D16000009541D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9110044519D16000009541D0 /* MenuBuddy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MenuBuddy-Prefix.pch"; sourceTree = "<group>"; };
+		9110044519D16000009541D0 /* Nacho Man-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nacho Man-Prefix.pch"; sourceTree = "<group>"; };
 		9110044619D16000009541D0 /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
 		9110044719D16000009541D0 /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
 		9110044A19D16000009541D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9110044C19D16000009541D0 /* MBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBViewController.h; sourceTree = "<group>"; };
 		9110044D19D16000009541D0 /* MBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBViewController.m; sourceTree = "<group>"; };
 		9110044F19D16000009541D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9110045519D16000009541D0 /* MenuBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9110045519D16000009541D0 /* Nacho ManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nacho ManTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9110045619D16000009541D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9110045E19D16000009541D0 /* MenuBuddyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MenuBuddyTests-Info.plist"; sourceTree = "<group>"; };
+		9110045E19D16000009541D0 /* Nacho ManTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nacho ManTests-Info.plist"; sourceTree = "<group>"; };
 		9110046019D16000009541D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9110046219D16000009541D0 /* MenuBuddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuBuddyTests.m; sourceTree = "<group>"; };
 		9110046F19D16D62009541D0 /* MBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBNavigationController.h; sourceTree = "<group>"; };
@@ -87,15 +94,21 @@
 		91851A3019E1177C009C86D5 /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sound.png; path = images/sound.png; sourceTree = "<group>"; };
 		918E2FB019EA30C7008B7B62 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = forward.png; path = images/forward.png; sourceTree = "<group>"; };
 		918E2FB219EA3117008B7B62 /* backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backward.png; path = images/backward.png; sourceTree = "<group>"; };
-		918E2FB419EA323E008B7B62 /* MBRecipeInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRecipeInfoViewController.h; sourceTree = "<group>"; };
-		918E2FB519EA323E008B7B62 /* MBRecipeInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBRecipeInfoViewController.m; sourceTree = "<group>"; };
+		9191CE5C19F8E86F00F30137 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		9191CE5E19F8E94600F30137 /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
+		9191CE6019F8E9AA00F30137 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		9191CE6219F8EC5C00F30137 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9191CE6319F8EC5C00F30137 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9191CE6419F8EC5C00F30137 /* Default@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@x2.png"; sourceTree = "<group>"; };
 		91A60C2A19F1E81A00BAB863 /* MBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBWebViewController.h; sourceTree = "<group>"; };
 		91A60C2B19F1E81A00BAB863 /* MBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBWebViewController.m; sourceTree = "<group>"; };
+		91BB952E19FA29B4001A0F62 /* recipies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipies.json; sourceTree = "<group>"; };
 		91E7123C19DFA26E00EE4E46 /* MBRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBRecipe.h; sourceTree = "<group>"; };
 		91E7123D19DFA26E00EE4E46 /* MBRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBRecipe.m; sourceTree = "<group>"; };
 		91E7123F19DFA8D300EE4E46 /* MBCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCircleButton.h; sourceTree = "<group>"; };
 		91E7124019DFA8D300EE4E46 /* MBCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCircleButton.m; sourceTree = "<group>"; };
 		91E7124219DFCB4F00EE4E46 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		91EED19D19FAF6810016B34A /* machoSweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machoSweet.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +150,8 @@
 		9110043519D16000009541D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9110043419D16000009541D0 /* MenuBuddy.app */,
-				9110045519D16000009541D0 /* MenuBuddyTests.xctest */,
+				9110043419D16000009541D0 /* Nacho Man.app */,
+				9110045519D16000009541D0 /* Nacho ManTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,7 +171,6 @@
 		9110043D19D16000009541D0 /* MenuBuddy */ = {
 			isa = PBXGroup;
 			children = (
-				913C927919F6325C0075E04F /* Data */,
 				9110046E19D16049009541D0 /* Utilities */,
 				9110046D19D16026009541D0 /* Models */,
 				9110046C19D1601B009541D0 /* Views */,
@@ -173,10 +185,10 @@
 		9110043E19D16000009541D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9110043F19D16000009541D0 /* MenuBuddy-Info.plist */,
+				9110043F19D16000009541D0 /* Nacho Man-Info.plist */,
 				9110044019D16000009541D0 /* InfoPlist.strings */,
 				9110044319D16000009541D0 /* main.m */,
-				9110044519D16000009541D0 /* MenuBuddy-Prefix.pch */,
+				9110044519D16000009541D0 /* Nacho Man-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,7 +205,7 @@
 		9110045D19D16000009541D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9110045E19D16000009541D0 /* MenuBuddyTests-Info.plist */,
+				9110045E19D16000009541D0 /* Nacho ManTests-Info.plist */,
 				9110045F19D16000009541D0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -213,8 +225,6 @@
 				9110047319D16DAA009541D0 /* MBTableViewController.m */,
 				91851A2319E0EC3A009C86D5 /* MBCountdownTimerButton.h */,
 				91851A2419E0EC3A009C86D5 /* MBCountdownTimerButton.m */,
-				918E2FB419EA323E008B7B62 /* MBRecipeInfoViewController.h */,
-				918E2FB519EA323E008B7B62 /* MBRecipeInfoViewController.m */,
 				91A60C2A19F1E81A00BAB863 /* MBWebViewController.h */,
 				91A60C2B19F1E81A00BAB863 /* MBWebViewController.m */,
 			);
@@ -240,6 +250,7 @@
 		913C927919F6325C0075E04F /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				91BB952E19FA29B4001A0F62 /* recipies.json */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -247,6 +258,7 @@
 		917078AC19F4F4D600DCF811 /* RecipeThumbnails */ = {
 			isa = PBXGroup;
 			children = (
+				91EED19D19FAF6810016B34A /* machoSweet.png */,
 				913C926F19F6304F0075E04F /* machoEggs.png */,
 				913C927019F6304F0075E04F /* machoPizza.png */,
 				913C927119F6304F0075E04F /* machos.png */,
@@ -260,6 +272,7 @@
 		91851A2719E105D5009C86D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				913C927919F6325C0075E04F /* Data */,
 				91851A2819E105E2009C86D5 /* Images */,
 			);
 			name = Resources;
@@ -269,6 +282,12 @@
 		91851A2819E105E2009C86D5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9191CE6219F8EC5C00F30137 /* Default-568h@2x.png */,
+				9191CE6319F8EC5C00F30137 /* Default.png */,
+				9191CE6419F8EC5C00F30137 /* Default@x2.png */,
+				9191CE6019F8E9AA00F30137 /* Icon-Small@2x.png */,
+				9191CE5E19F8E94600F30137 /* icon-40@2x.png */,
+				9191CE5C19F8E86F00F30137 /* icon-60@2x.png */,
 				917078AC19F4F4D600DCF811 /* RecipeThumbnails */,
 				918E2FB219EA3117008B7B62 /* backward.png */,
 				918E2FB019EA30C7008B7B62 /* forward.png */,
@@ -281,9 +300,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9110043319D16000009541D0 /* MenuBuddy */ = {
+		9110043319D16000009541D0 /* Nacho Man */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9110046619D16000009541D0 /* Build configuration list for PBXNativeTarget "MenuBuddy" */;
+			buildConfigurationList = 9110046619D16000009541D0 /* Build configuration list for PBXNativeTarget "Nacho Man" */;
 			buildPhases = (
 				9110043019D16000009541D0 /* Sources */,
 				9110043119D16000009541D0 /* Frameworks */,
@@ -293,14 +312,14 @@
 			);
 			dependencies = (
 			);
-			name = MenuBuddy;
+			name = "Nacho Man";
 			productName = MenuBuddy;
-			productReference = 9110043419D16000009541D0 /* MenuBuddy.app */;
+			productReference = 9110043419D16000009541D0 /* Nacho Man.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9110045419D16000009541D0 /* MenuBuddyTests */ = {
+		9110045419D16000009541D0 /* Nacho ManTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9110046919D16000009541D0 /* Build configuration list for PBXNativeTarget "MenuBuddyTests" */;
+			buildConfigurationList = 9110046919D16000009541D0 /* Build configuration list for PBXNativeTarget "Nacho ManTests" */;
 			buildPhases = (
 				9110045119D16000009541D0 /* Sources */,
 				9110045219D16000009541D0 /* Frameworks */,
@@ -311,9 +330,9 @@
 			dependencies = (
 				9110045B19D16000009541D0 /* PBXTargetDependency */,
 			);
-			name = MenuBuddyTests;
+			name = "Nacho ManTests";
 			productName = MenuBuddyTests;
-			productReference = 9110045519D16000009541D0 /* MenuBuddyTests.xctest */;
+			productReference = 9110045519D16000009541D0 /* Nacho ManTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -331,7 +350,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9110042F19D16000009541D0 /* Build configuration list for PBXProject "MenuBuddy" */;
+			buildConfigurationList = 9110042F19D16000009541D0 /* Build configuration list for PBXProject "Nacho Man" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -344,8 +363,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9110043319D16000009541D0 /* MenuBuddy */,
-				9110045419D16000009541D0 /* MenuBuddyTests */,
+				9110043319D16000009541D0 /* Nacho Man */,
+				9110045419D16000009541D0 /* Nacho ManTests */,
 			);
 		};
 /* End PBXProject section */
@@ -355,19 +374,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9191CE5D19F8E86F00F30137 /* icon-60@2x.png in Resources */,
+				9191CE6619F8EC5C00F30137 /* Default.png in Resources */,
 				913C927619F6304F0075E04F /* machos.png in Resources */,
+				91EED19E19FAF6810016B34A /* machoSweet.png in Resources */,
 				9110045019D16000009541D0 /* Images.xcassets in Resources */,
 				913C927719F6304F0075E04F /* machoSalad.png in Resources */,
 				913C927819F6304F0075E04F /* machoSoup.png in Resources */,
 				9110044219D16000009541D0 /* InfoPlist.strings in Resources */,
+				91BB952F19FA29B4001A0F62 /* recipies.json in Resources */,
 				918E2FB319EA3117008B7B62 /* backward.png in Resources */,
 				913C926E19F62EAB0075E04F /* machoPie.png in Resources */,
+				9191CE6719F8EC5C00F30137 /* Default@x2.png in Resources */,
+				9191CE6519F8EC5C00F30137 /* Default-568h@2x.png in Resources */,
 				91851A3319E1177C009C86D5 /* play1.png in Resources */,
 				913C927419F6304F0075E04F /* machoEggs.png in Resources */,
 				913C927519F6304F0075E04F /* machoPizza.png in Resources */,
 				918E2FB119EA30C7008B7B62 /* forward.png in Resources */,
 				91851A3419E1177C009C86D5 /* sound.png in Resources */,
+				9191CE6119F8E9AA00F30137 /* Icon-Small@2x.png in Resources */,
 				9110044B19D16000009541D0 /* Main.storyboard in Resources */,
+				9191CE5F19F8E94600F30137 /* icon-40@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +416,6 @@
 				91851A2519E0EC3A009C86D5 /* MBCountdownTimerButton.m in Sources */,
 				91E7123E19DFA26E00EE4E46 /* MBRecipe.m in Sources */,
 				91E7124119DFA8D300EE4E46 /* MBCircleButton.m in Sources */,
-				918E2FB619EA323E008B7B62 /* MBRecipeInfoViewController.m in Sources */,
 				9110047419D16DAA009541D0 /* MBTableViewController.m in Sources */,
 				9110044419D16000009541D0 /* main.m in Sources */,
 				9110044E19D16000009541D0 /* MBViewController.m in Sources */,
@@ -412,7 +438,7 @@
 /* Begin PBXTargetDependency section */
 		9110045B19D16000009541D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9110043319D16000009541D0 /* MenuBuddy */;
+			target = 9110043319D16000009541D0 /* Nacho Man */;
 			targetProxy = 9110045A19D16000009541D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -518,12 +544,10 @@
 		9110046719D16000009541D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MenuBuddy/MenuBuddy-Prefix.pch";
-				INFOPLIST_FILE = "MenuBuddy/MenuBuddy-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MenuBuddy/Nacho Man-Prefix.pch";
+				INFOPLIST_FILE = "MenuBuddy/Nacho Man-Info.plist";
+				PRODUCT_NAME = "Nacho Man";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -531,12 +555,10 @@
 		9110046819D16000009541D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MenuBuddy/MenuBuddy-Prefix.pch";
-				INFOPLIST_FILE = "MenuBuddy/MenuBuddy-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MenuBuddy/Nacho Man-Prefix.pch";
+				INFOPLIST_FILE = "MenuBuddy/Nacho Man-Info.plist";
+				PRODUCT_NAME = "Nacho Man";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -556,8 +578,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "MenuBuddyTests/MenuBuddyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MenuBuddyTests/Nacho ManTests-Info.plist";
+				PRODUCT_NAME = "Nacho ManTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -574,8 +596,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MenuBuddy/MenuBuddy-Prefix.pch";
-				INFOPLIST_FILE = "MenuBuddyTests/MenuBuddyTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MenuBuddyTests/Nacho ManTests-Info.plist";
+				PRODUCT_NAME = "Nacho ManTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -584,7 +606,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9110042F19D16000009541D0 /* Build configuration list for PBXProject "MenuBuddy" */ = {
+		9110042F19D16000009541D0 /* Build configuration list for PBXProject "Nacho Man" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9110046419D16000009541D0 /* Debug */,
@@ -593,7 +615,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9110046619D16000009541D0 /* Build configuration list for PBXNativeTarget "MenuBuddy" */ = {
+		9110046619D16000009541D0 /* Build configuration list for PBXNativeTarget "Nacho Man" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9110046719D16000009541D0 /* Debug */,
@@ -602,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9110046919D16000009541D0 /* Build configuration list for PBXNativeTarget "MenuBuddyTests" */ = {
+		9110046919D16000009541D0 /* Build configuration list for PBXNativeTarget "Nacho ManTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9110046A19D16000009541D0 /* Debug */,

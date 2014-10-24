@@ -22,8 +22,9 @@ extern NSString *const KEY_SUBHEAD;
 extern NSString *const KEY_CONTENT;
 
 
-- (id)initWithTestRecipe;
-- (id)initWith:(NSString *)name :(NSString *)ingredients :(NSArray *)steps;
+//- (id)initWithTestRecipe;
+- (id)initWithFile:(NSString *)file;
+- (id)initWithJsonObject:(NSDictionary *)json;
 - (NSDictionary *)getCurrentStep;
 - (NSDictionary *)getNextStep;
 - (NSDictionary *)getPreviousStep;

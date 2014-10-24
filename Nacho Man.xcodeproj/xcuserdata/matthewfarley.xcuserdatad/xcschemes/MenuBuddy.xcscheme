@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9110043319D16000009541D0"
-               BuildableName = "MenuBuddy.app"
-               BlueprintName = "MenuBuddy"
-               ReferencedContainer = "container:MenuBuddy.xcodeproj">
+               BuildableName = "Nacho Man.app"
+               BlueprintName = "Nacho Man"
+               ReferencedContainer = "container:Nacho Man.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9110045419D16000009541D0"
-               BuildableName = "MenuBuddyTests.xctest"
-               BlueprintName = "MenuBuddyTests"
-               ReferencedContainer = "container:MenuBuddy.xcodeproj">
+               BuildableName = "Nacho ManTests.xctest"
+               BlueprintName = "Nacho ManTests"
+               ReferencedContainer = "container:Nacho Man.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9110043319D16000009541D0"
-            BuildableName = "MenuBuddy.app"
-            BlueprintName = "MenuBuddy"
-            ReferencedContainer = "container:MenuBuddy.xcodeproj">
+            BuildableName = "Nacho Man.app"
+            BlueprintName = "Nacho Man"
+            ReferencedContainer = "container:Nacho Man.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9110043319D16000009541D0"
-            BuildableName = "MenuBuddy.app"
-            BlueprintName = "MenuBuddy"
-            ReferencedContainer = "container:MenuBuddy.xcodeproj">
+            BuildableName = "Nacho Man.app"
+            BlueprintName = "Nacho Man"
+            ReferencedContainer = "container:Nacho Man.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9110043319D16000009541D0"
-            BuildableName = "MenuBuddy.app"
-            BlueprintName = "MenuBuddy"
-            ReferencedContainer = "container:MenuBuddy.xcodeproj">
+            BuildableName = "Nacho Man.app"
+            BlueprintName = "Nacho Man"
+            ReferencedContainer = "container:Nacho Man.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

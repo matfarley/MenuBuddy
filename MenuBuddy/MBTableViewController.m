@@ -32,10 +32,25 @@
 {
     [super viewDidLoad];
     
-    // json
     
+    NSString *filePath =[[NSBundle mainBundle] pathForResource:@"recipies" ofType:@"json"];
+    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+    NSArray *jsonDataArray = [[NSArray alloc] initWithArray:[json objectForKey:@"recipes"]];
+    NSMutableArray *recipeList = [[NSMutableArray alloc] init];
     
-    self.testRecipeList = @[[[MBRecipe alloc]initWithTestRecipe]];
+    if (jsonDataArray && [jsonDataArray count] > 0){
+        for (NSDictionary * dic in jsonDataArray){
+            [recipeList addObject: [[MBRecipe alloc] initWithJsonObject:dic]];
+        }
+        self.testRecipeList = recipeList.copy;
+    }
+
+    //MBRecipe *test = [MBRecipe alloc]initWithJsonObject:
+    
+   
+  // self.testRecipeList = @[[[MBRecipe alloc]initWithFile:@"recipies"]];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,12 +65,6 @@
     return [self.testRecipeList count];
 }
 
--(NSArray *)testRecipeList{
-    if (!_testRecipeList){
-       _testRecipeList = @[@"Macho Pie", @"Macho Salad", @"Macho Soup"];
-    }
-    return _testRecipeList;
-}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {

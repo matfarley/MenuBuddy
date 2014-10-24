@@ -7,7 +7,6 @@
 //
 
 #import "MBViewController.h"
-#import "MBRecipeInfoViewController.h"
 #import "MBWebViewController.h"
 
 
@@ -18,7 +17,6 @@
 @property (strong, nonatomic) AVSpeechSynthesizer* speechSynth;
 @property (strong, nonatomic) NSTimer *countdownTimer;
 @property (nonatomic) BOOL isTimerPaused;
-@property (weak, nonatomic) MBRecipeInfoViewController *popOverView;
 
 @end
 

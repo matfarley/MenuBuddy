@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F359F55F-BD97-4D35-96F2-FE8278565C63</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Nacho Man</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C7CA9DC4-62B9-4D62-99EC-478148C33D8F</key>
+		<string>https://github.com/matfarley/MenuBuddy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Nacho Man.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C7CA9DC4-62B9-4D62-99EC-478148C33D8F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/matfarley/MenuBuddy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C7CA9DC4-62B9-4D62-99EC-478148C33D8F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C7CA9DC4-62B9-4D62-99EC-478148C33D8F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MenuBuddy</string>
+		</dict>
+	</array>
+</dict>
+</plist>
