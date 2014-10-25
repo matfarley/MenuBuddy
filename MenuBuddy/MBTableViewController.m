@@ -45,11 +45,6 @@
         }
         self.testRecipeList = recipeList.copy;
     }
-
-    //MBRecipe *test = [MBRecipe alloc]initWithJsonObject:
-    
-   
-  // self.testRecipeList = @[[[MBRecipe alloc]initWithFile:@"recipies"]];
     
 }
 
@@ -94,6 +89,5 @@
         }
     }
 }
-
 
 @end

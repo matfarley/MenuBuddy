@@ -164,4 +164,8 @@
     }
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [self.countdownTimer invalidate];
+}
+
 @end
